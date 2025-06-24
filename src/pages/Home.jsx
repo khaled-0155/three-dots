@@ -20,7 +20,7 @@ import { IoBuildOutline } from "react-icons/io5";
 import { GrOptimize } from "react-icons/gr";
 import { ProgressBar } from "react-bootstrap";
 import Footer from "../component/footer/Footer";
-import Navbar from "../custom-component/NavBar";
+import Navbar from "../custom-component/Navbar";
 
 const SlideList = [
   {

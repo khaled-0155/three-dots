@@ -8,7 +8,7 @@ import findingImg from "../assets/images/about/finding-us-01.png";
 import teamImg1 from "../assets/images/team/team-01.jpg";
 import teamImg2 from "../assets/images/team/team-02.jpg";
 import teamImg3 from "../assets/images/team/team-03.jpg";
-import Navbar from "../custom-component/NavBar";
+import Navbar from "../custom-component/Navbar";
 import About from "../component/HomeLayout/homeOne/About";
 import Contact from "../elements/contact/ContactTwo";
 

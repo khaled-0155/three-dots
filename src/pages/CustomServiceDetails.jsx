@@ -16,7 +16,7 @@ import softwareImg1 from "../assets/images/service/service-01.png";
 import softwareImg2 from "../assets/images/service/service-02.png";
 import { useParams } from "react-router-dom";
 import Contact from "../elements/contact/ContactTwo";
-import Navbar from "../custom-component/NavBar";
+import Navbar from "../custom-component/Navbar";
 
 const serviceDetailsData = [
   {
