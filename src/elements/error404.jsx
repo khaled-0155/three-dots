@@ -3,7 +3,7 @@ import Header from "../component/header/HeaderFour";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/FooterTwo";
-import Navbar from "../custom-component/NavBar";
+import Navbar from "../custom-component/Navbar";
 
 class error404 extends Component {
   render() {
