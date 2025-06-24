@@ -5,8 +5,7 @@ import PageHelmet from "../component/common/Helmet";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
-import Navbar from "../custom-component/NavBar";
+import Navbar from "../custom-component/Navbar";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
