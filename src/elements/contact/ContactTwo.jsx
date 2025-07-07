@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ContactForm from "./ContactForm";
 
-import about from "../../assets/images/about/about-6.jpg";
+import about from "../../assets/images/about/about-6.png";
 
 class ContactTwo extends Component {
   render() {

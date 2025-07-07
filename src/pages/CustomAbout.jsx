@@ -4,24 +4,14 @@ import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import Testimonial from "../elements/Testimonial";
 import Footer from "../component/footer/Footer";
-import findingImg from "../assets/images/about/finding-us-01.png";
-import teamImg1 from "../assets/images/team/team-01.jpg";
-import teamImg2 from "../assets/images/team/team-02.jpg";
-import teamImg3 from "../assets/images/team/team-03.jpg";
+import findingImg from "../assets/images/about/finding-us-011.png";
+
 import Navbar from "../custom-component/Navbar";
 import About from "../component/HomeLayout/homeOne/About";
 import Contact from "../elements/contact/ContactTwo";
 
 const CustomAbout = () => {
   const title = "About";
-  const description =
-    "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.";
-
-  const teamMembers = [
-    { name: "Jone Due", role: "Sr. Web Developer", img: teamImg1 },
-    { name: "BM. Alamin", role: "Sr. Web Developer", img: teamImg2 },
-    { name: "Jone Due", role: "Sr. Web Developer", img: teamImg3 },
-  ];
 
   return (
     <>

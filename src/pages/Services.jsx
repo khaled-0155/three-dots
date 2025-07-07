@@ -8,12 +8,11 @@ import {
   FiChevronUp,
 } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
-import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import Navbar from "../custom-component/Navbar";
 import Contact from "../elements/contact/ContactTwo";
 import { ProgressBar } from "react-bootstrap";
-import about from "../assets/images/about/about-3.jpg";
+import about from "../assets/images/about/about-1.png";
 import { Link } from "react-router-dom";
 
 const serviceContent = [

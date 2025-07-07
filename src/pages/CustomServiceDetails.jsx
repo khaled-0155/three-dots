@@ -1,19 +1,14 @@
-import React, { useState } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from "react-modal-video";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import serviceImg from "../assets/images/service/service-01.png";
-import serviceImg2 from "../assets/images/service/service-02.png";
-import erpImg1 from "../assets/images/service/service-01.png";
-import erpImg2 from "../assets/images/service/service-02.png";
-import marketingImg1 from "../assets/images/service/service-01.png";
-import marketingImg2 from "../assets/images/service/service-02.png";
-import softwareImg1 from "../assets/images/service/service-01.png";
-import softwareImg2 from "../assets/images/service/service-02.png";
+import erpImg1 from "../assets/images/service/erp-01.jpg";
+import erpImg2 from "../assets/images/service/erp-02.jpg";
+import marketingImg1 from "../assets/images/service/market-01.jpg";
+import marketingImg2 from "../assets/images/service/market-02.jpg";
+import softwareImg1 from "../assets/images/service/software.jpg";
+import softwareImg2 from "../assets/images/service/software.jpg";
 import { useParams } from "react-router-dom";
 import Contact from "../elements/contact/ContactTwo";
 import Navbar from "../custom-component/Navbar";

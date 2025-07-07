@@ -1,14 +1,14 @@
 import { Component } from "react";
 
 import ScrollToTop from "react-scroll-up";
-import serviceImg from "../assets/images/service/service-01.png";
+import serviceImg from "../assets/images/service/service-011.png";
 import { FiChevronUp, FiMonitor, FiUsers, FiLayers } from "react-icons/fi";
 
 import Testimonial from "../elements/Testimonial";
 import BlogContent from "../elements/blog/BlogContent";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
-import about from "../assets/images/about/about-3.jpg";
+import about from "../assets/images/about/about-33.png";
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
@@ -34,39 +34,6 @@ const SlideList = [
     buttonLink: "/contact",
     buttonLink2: "/contact",
     buttonText2: "/contact",
-  },
-];
-
-const list = [
-  {
-    image: "image-1",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-2",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show",
-  },
-  {
-    image: "image-4",
-    category: "Development",
-    title: "Getting tickets to the big show",
   },
 ];
 
@@ -439,36 +406,7 @@ class HomeParticles extends Component {
             </div>
           </div>
         </div>
-        {/* <div
-          className="service-area creative-service-wrapper ptb--120 bg_color--1"
-          id="service"
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-12">
-                <div className="section-title text-left mb--30">
-                  <h2>How We Work</h2>
-                  <p>
-                    Our process is built around one goal: getting real results,
-                    not just delivering deliverables. We work closely with each
-                    client, combining strategy, design, and tech to solve the
-                    right problems in the right way.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row creative-service">
-              <div className="col-lg-12">
-                <ServiceList
-                  content={howWeWorkContent}
-                  item="4"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* End How We Work  */}
+
         {/* Start Single Area */}
         <div className="rn-service-details ptb--120 bg_color--1">
           <div className="container">
