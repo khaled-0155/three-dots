@@ -6,9 +6,11 @@ class About extends Component {
   render() {
     let title = "About",
       description = [
-        "3 dots is a digital solutions company powered by the expertise of Point 7.",
-        "We specialize in building integrated ecosystems for businesses, combining ERP systems, tailored software development, and strategic digital marketing.",
-        "Whether you're a startup looking to scale or an established business ready to modernize, 3 dots offers the technology, insight, and execution you need.",
+        "3Dots is a results-driven digital solutions company.",
+        "We specialize in building integrated business ecosystems that combine ERP systems, custom software development, and strategic digital marketing.",
+        "Our mission: simplify complexity and turn strategy into measurable results.",
+        "We empower startups to scale and help established businesses modernize and grow.",
+        "With deep market insight and sharp execution, 3Dots delivers real impact where it matters most.",
       ];
 
     return (
