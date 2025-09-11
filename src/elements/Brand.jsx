@@ -1,17 +1,52 @@
 import React, { Component } from "react";
 
-import brand1 from "../assets/images/brand/brand-01.png";
-import brand2 from "../assets/images/brand/brand-02.png";
-import brand3 from "../assets/images/brand/brand-03.png";
-import brand4 from "../assets/images/brand/brand-04.png";
-import brand5 from "../assets/images/brand/brand-05.png";
-import brand6 from "../assets/images/brand/brand-06.png";
+import naddi from "../assets/images/clients/logos/naddi.png";
+import avon from "../assets/images/clients/logos/avon.png";
+import blue from "../assets/images/clients/logos/blue.png";
+import clear from "../assets/images/clients/logos/clear.png";
+import court from "../assets/images/clients/logos/court.png";
+import croquis from "../assets/images/clients/logos/croquis.png";
+import elm from "../assets/images/clients/logos/elm.png";
+import flora from "../assets/images/clients/logos/flora.png";
+import jeel from "../assets/images/clients/logos/jeel.png";
+import jt from "../assets/images/clients/logos/jt.png";
+import magic from "../assets/images/clients/logos/magic.png";
+import meals from "../assets/images/clients/logos/meals.png";
+import munaques from "../assets/images/clients/logos/munaqes.png";
+import ringo from "../assets/images/clients/logos/ringo.png";
+import stc from "../assets/images/clients/logos/stc.png";
+import straumann from "../assets/images/clients/logos/straumann.png";
+import taraf from "../assets/images/clients/logos/taraf.png";
+import tech from "../assets/images/clients/logos/tech.png";
+import zqr from "../assets/images/clients/logos/zqr.png";
+
+const brandLogos = [
+  naddi,
+  avon,
+  blue,
+  clear,
+  court,
+  croquis,
+  elm,
+  flora,
+  jeel,
+  jt,
+  magic,
+  meals,
+  munaques,
+  ringo,
+  stc,
+  straumann,
+  taraf,
+  tech,
+  zqr,
+];
 
 class Brand extends Component {
   render() {
     const { branstyle } = this.props;
     return (
-      <>
+      <div className="active-light">
         <h2
           style={{ color: "#fff", textAlign: "center", marginBottom: "30px" }}
         >
@@ -22,26 +57,13 @@ class Brand extends Component {
           established enterprises, helping them achieve their digital goals.
         </p>
         <ul className={`brand-style-2`}>
-          <li>
-            <img src={brand1} alt="Logo Images" />
-          </li>
-          <li>
-            <img src={brand2} alt="Logo Images" />
-          </li>
-          <li>
-            <img src={brand3} alt="Logo Images" />
-          </li>
-          <li>
-            <img src={brand4} alt="Logo Images" />
-          </li>
-          <li>
-            <img src={brand5} alt="Logo Images" />
-          </li>
-          <li>
-            <img src={brand6} alt="Logo Images" />
-          </li>
+          {brandLogos.map((logo, index) => (
+            <li key={index}>
+              <img src={logo} alt={`Brand logo  ${index + 1}`} />
+            </li>
+          ))}
         </ul>
-      </>
+      </div>
     );
   }
 }

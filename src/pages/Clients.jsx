@@ -15,8 +15,18 @@ import Contact from "../elements/contact/ContactTwo";
 
 // Replace with your actual client images later
 import placeholder from "../assets/images/portfolio/portfolio-big-01.jpg";
+import courtImg from "../assets/images/clients/thumb/court.png";
+import nadiImg from "../assets/images/clients/thumb/nadi.png";
+import floraImg from "../assets/images/clients/thumb/flora.png";
+import jtImg from "../assets/images/clients/thumb/jt.png";
+import magicImg from "../assets/images/clients/thumb/magic.png";
+import ringoImg from "../assets/images/clients/thumb/ringo.png";
+import tarafImg from "../assets/images/clients/thumb/taraf.png";
+import fitnessImg from "../assets/images/clients/thumb/fitness.png";
+import mealsImg from "../assets/images/clients/thumb/meals.png";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import Navbar from "../custom-component/Navbar";
+import BrandOne from "../elements/Brand";
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
@@ -32,7 +42,7 @@ const projects = [
     desc: "Court Plus didn’t start with a brief—it started with a vision. We initiated the concept internally to solve the fragmented, outdated court-booking experience.",
     extra:
       "Today, we continue to lead Court Plus through its growth journey across the region.",
-    image: placeholder,
+    image: courtImg,
     branch: "Sports Tech",
     type: "Mobile + Web App",
     program: "Digital Platform",
@@ -43,7 +53,7 @@ const projects = [
     desc: "Ringo came with a goal—streamline queueing and ticketing—but lacked definition. We stepped in to co-architect the product, mapping user flows for customers, admins, and staff.",
     extra:
       "With QR scanning, dynamic queue logic, and real-time updates, Ringo is now in pilot across high-traffic venues.",
-    image: placeholder,
+    image: ringoImg,
     branch: "Operations",
     type: "App + Dashboard",
     program: "Queue Management",
@@ -54,7 +64,7 @@ const projects = [
     desc: "In a crowded wellness market, Technique Fitness aimed to unify fitness and nutrition into one seamless app.",
     extra:
       "The result? The #1 fitness app in Saudi Arabia on the App Store in May 2023.",
-    image: placeholder,
+    image: fitnessImg,
     branch: "Health & Fitness",
     type: "Mobile App",
     program: "Digital Coach",
@@ -65,7 +75,7 @@ const projects = [
     desc: "Tasked with digitising the experience of ordering traditional Saudi cuisine, we built the Al-Nadi Al-Faried ecosystem from scratch.",
     extra:
       "Balancing heritage with functionality, the platform is now expanding across the Kingdom.",
-    image: placeholder,
+    image: nadiImg,
     branch: "Food & Beverage",
     type: "App + Website",
     program: "Restaurant Platform",
@@ -74,7 +84,7 @@ const projects = [
     title: "Magic Stamp",
     tagline: "Loyalty Meets Simplicity",
     desc: "We managed content and social media for one of the region’s most innovative loyalty platforms, helping vendors drive engagement.",
-    image: placeholder,
+    image: magicImg,
     branch: "Retail",
     type: "Social + Content",
     program: "Loyalty Marketing",
@@ -83,7 +93,7 @@ const projects = [
     title: "Technique Meals",
     tagline: "Smart Nutrition, Smarter Reach",
     desc: "We supported Technique Meals with social media marketing focused on awareness and conversion.",
-    image: placeholder,
+    image: mealsImg,
     branch: "Health & Wellness",
     type: "Social Media",
     program: "Digital Marketing",
@@ -92,7 +102,7 @@ const projects = [
     title: "Flora Café",
     tagline: "Where Style Meets Sip",
     desc: "We handled the full branding for Flora Café—translating the elegance of their space into a distinctive, modern visual identity.",
-    image: placeholder,
+    image: floraImg,
     branch: "Hospitality",
     type: "Brand Identity",
     program: "Design",
@@ -101,7 +111,7 @@ const projects = [
     title: "J&T",
     tagline: "UK Brand Identity",
     desc: "We built the brand identity for J&T’s UK launch—focused on clarity, versatility, and global ambition.",
-    image: placeholder,
+    image: jtImg,
     branch: "Logistics",
     type: "Branding",
     program: "Identity Design",
@@ -110,7 +120,7 @@ const projects = [
     title: "Taraf",
     tagline: "Luxury Defined",
     desc: "We partnered with Taraf on branding and social media marketing—crafting a bold, luxurious identity.",
-    image: placeholder,
+    image: tarafImg,
     branch: "Real Estate",
     type: "Branding + Marketing",
     program: "Luxury Identity",
@@ -217,6 +227,18 @@ const Clients = () => {
         </ScrollToTop>
       </div>
 
+      {/* Start Brand Area  */}
+      {/* <div className="rn-brand-area ptb--120 bg_color--5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <BrandOne branstyle="branstyle--2" />
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* End Testimonial Area */}
+
       <div className="rn-contact-us ptb--120 bg_color--5" id="contact">
         <Contact />
       </div>
@@ -224,12 +246,12 @@ const Clients = () => {
       <Footer />
 
       {/* Video Modal Example (optional) */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={isOpen}
         videoId="ZOoVOfieAF8"
         onClose={() => setIsOpen(false)}
-      />
+      /> */}
     </>
   );
 };
