@@ -70,6 +70,7 @@ const serviceDetailsData = [
           "Content creation including blogs, videos, infographics, and emails.",
           "Custom landing pages, lead magnets, and nurturing sequences.",
           "Analytics dashboards and strategic campaign reporting.",
+          "Full brand development, from logo design to complete brand identity systems that align with your market and message.",
         ],
       },
       {

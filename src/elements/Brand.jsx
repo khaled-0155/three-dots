@@ -11,8 +11,17 @@ class Brand extends Component {
   render() {
     const { branstyle } = this.props;
     return (
-      <React.Fragment>
-        <ul className={`brand-list ${branstyle}`}>
+      <>
+        <h2
+          style={{ color: "#fff", textAlign: "center", marginBottom: "30px" }}
+        >
+          Our Clients
+        </h2>
+        <p style={{ color: "#fff", textAlign: "center", marginBottom: "50px" }}>
+          We are proud to work with a diverse range of clients, from startups to
+          established enterprises, helping them achieve their digital goals.
+        </p>
+        <ul className={`brand-style-2`}>
           <li>
             <img src={brand1} alt="Logo Images" />
           </li>
@@ -32,7 +41,7 @@ class Brand extends Component {
             <img src={brand6} alt="Logo Images" />
           </li>
         </ul>
-      </React.Fragment>
+      </>
     );
   }
 }

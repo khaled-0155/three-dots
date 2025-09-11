@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import logoWhite from "../assets/images/logo/logo-white.png";
@@ -63,6 +62,10 @@ export default function Navbar({ logoColor = "black" }) {
 
               <li>
                 <Link to="/about">About</Link>
+              </li>
+
+              <li>
+                <Link to="/clients">Clients</Link>
               </li>
 
               <li>

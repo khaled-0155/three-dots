@@ -57,6 +57,7 @@ import Services from "./pages/Services.jsx";
 import CustomServiceDetails from "./pages/CustomServiceDetails.jsx";
 import CustomAbout from "./pages/CustomAbout.jsx";
 import CustomContact from "./pages/CustomContact.jsx";
+import Clients from "./pages/Clients.jsx";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           {/* <Route index element={<Demo />} /> */}
           {/* <Route index element={<DarkMainDemo />} /> */}
           <Route index element={<Home />} />
+          <Route path="clients" element={<Clients />} />
           <Route path={`services/:id`} element={<CustomServiceDetails />} />
           <Route path={`services`} element={<Services />} />
           <Route path={`about`} element={<CustomAbout />} />

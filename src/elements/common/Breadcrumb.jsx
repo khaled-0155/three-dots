@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class Breadcrumb extends Component {
   render() {
-    const { title, parent } = this.props;
+    const { title, parent, description } = this.props;
     return (
       <React.Fragment>
         <div
@@ -26,6 +26,7 @@ class Breadcrumb extends Component {
                     )}
                     <li className="breadcrumb-item active">{title}</li>
                   </ul>
+                  <p style={{ color: "#fff" }}>{description}</p>
                 </div>
               </div>
             </div>

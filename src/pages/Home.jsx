@@ -21,6 +21,7 @@ import { GrOptimize } from "react-icons/gr";
 import { ProgressBar } from "react-bootstrap";
 import Footer from "../component/footer/Footer";
 import Navbar from "../custom-component/Navbar";
+import BrandOne from "../elements/Brand";
 
 const SlideList = [
   {
@@ -154,7 +155,7 @@ class HomeParticles extends Component {
 
     return (
       <div className="active-dark">
-        <Helmet pageTitle="Home Particles" />
+        <Helmet pageTitle="Home" />
         {/* Start Header Area  */}
         <Navbar logoColor="white" />
 
@@ -475,6 +476,17 @@ class HomeParticles extends Component {
         >
           <div className="container">
             <Testimonial />
+          </div>
+        </div>
+
+        {/* Start Brand Area  */}
+        <div className="rn-brand-area ptb--120 bg_color--5">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <BrandOne branstyle="branstyle--2" />
+              </div>
+            </div>
           </div>
         </div>
         {/* End Testimonial Area */}
