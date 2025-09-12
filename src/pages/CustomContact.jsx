@@ -41,6 +41,19 @@ const CustomContact = () => {
       <div className="rn-contact-top-area ptb--120 bg_color--5">
         <div className="container">
           <div className="row">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
+              <div className="rn-address">
+                <div className="icon">
+                  <FiMail />
+                </div>
+                <div className="inner">
+                  <h4 className="title">Email Address</h4>
+                  <p>
+                    <a href="mailto:info@the3dots.org">info@the3dots.org</a>
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
               <div className="rn-address">
                 <div className="icon">
@@ -53,23 +66,6 @@ const CustomContact = () => {
                   </p>
                   <p>
                     <a href="tel:+856325652984">+856 325 652 984</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
-              <div className="rn-address">
-                <div className="icon">
-                  <FiMail />
-                </div>
-                <div className="inner">
-                  <h4 className="title">Email Address</h4>
-                  <p>
-                    <a href="mailto:admin@gmail.com">admin@gmail.com</a>
-                  </p>
-                  <p>
-                    <a href="mailto:example@gmail.com">example@gmail.com</a>
                   </p>
                 </div>
               </div>
