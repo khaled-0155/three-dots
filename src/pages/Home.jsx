@@ -2,13 +2,12 @@ import { Component } from "react";
 
 import ScrollToTop from "react-scroll-up";
 import serviceImg from "../assets/images/service/service-011.png";
-import { FiChevronUp, FiMonitor, FiUsers, FiLayers } from "react-icons/fi";
+import { FiChevronUp } from "react-icons/fi";
 
 import Testimonial from "../elements/Testimonial";
 import BlogContent from "../elements/blog/BlogContent";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
-import about from "../assets/images/about/about-33.png";
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
@@ -18,7 +17,6 @@ import { TbWorldSearch } from "react-icons/tb";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { IoBuildOutline } from "react-icons/io5";
 import { GrOptimize } from "react-icons/gr";
-import { ProgressBar } from "react-bootstrap";
 import Footer from "../component/footer/Footer";
 import Navbar from "../custom-component/Navbar";
 import BrandOne from "../elements/Brand";
@@ -26,11 +24,12 @@ import BrandOne from "../elements/Brand";
 const SlideList = [
   {
     textPosition: "text-center",
-    category: "Integrated Digital Solutions That drive results",
-    title: "Welcome to 3 Dots",
+    category: "Integrated Business & Digital Solutions That Drive Results",
+    title: "Welcome to Three Dots",
+    subTitle: "Odoo Systems. Smart Marketing. Custom Software",
     category2: "",
     description:
-      "We combine ERP, software development, and data-driven marketing to help businesses move smarter, faster, and stronger.",
+      "We help businesses scale efficiently by integrating operations, marketing, and technology into one powerful ecosystem. ",
     buttonText: "Book a Free Consultation",
     buttonLink: "/contact",
     buttonLink2: "/contact",
@@ -38,52 +37,56 @@ const SlideList = [
   },
 ];
 
+// const serviceContent = [
+//   {
+//     link: "erp",
+//     icon: <FiLayers />,
+//     title: "ERP Systems",
+//     description:
+//       "Streamline your business operations with smart, scalable ERP solutions.",
+//   },
+//   {
+//     link: "marketing",
+//     icon: <FiUsers />,
+//     title: "Digital Marketing",
+//     description: "Reach, engage, and convert with data-driven strategies.",
+//   },
+//   {
+//     link: "software",
+//     icon: <FiMonitor />,
+//     title: "Software Solutions",
+//     description: "Build what your business needs, without the tech headaches.",
+//   },
+// ];
+
 const serviceContent = [
   {
-    link: "erp",
-    icon: <FiLayers />,
-    title: "ERP Systems",
-    description:
-      "Streamline your business operations with smart, scalable ERP solutions.",
-  },
-  {
-    link: "marketing",
-    icon: <FiUsers />,
-    title: "Digital Marketing",
-    description: "Reach, engage, and convert with data-driven strategies.",
-  },
-  {
-    link: "software",
-    icon: <FiMonitor />,
-    title: "Software Solutions",
-    description: "Build what your business needs, without the tech headaches.",
-  },
-];
-
-const howWeWorkContent = [
-  {
+    number: "01",
     icon: <TbWorldSearch />,
     title: "Discover",
     description:
       "We dive deep into your business, challenges, and goals to uncover what really matters. Every solution starts with understanding.",
   },
   {
+    number: "02",
     icon: <MdOutlineDesignServices />,
     title: "Design & Strategize",
     description:
       "From systems architecture to marketing funnels, we map out a clear plan tailored to your operations, audience, and objectives.",
   },
   {
+    number: "03",
     icon: <IoBuildOutline />,
     title: "Build & Execute",
     description:
       "Our multidisciplinary teams turn strategy into reality, whether it’s building software, launching campaigns, or integrating tools.",
   },
   {
+    number: "04",
     icon: <GrOptimize />,
     title: "Optimize & Grow",
     description:
-      "We don’t disappear after launch. We monitor, test, improve, and help you grow, because performance is an ongoing process",
+      "We don’t disappear after launch. We monitor, test, improve, and help you grow, because performance is an ongoing process.",
   },
 ];
 
@@ -130,7 +133,7 @@ class HomeParticles extends Component {
 
   stickyHeader() {}
   render() {
-    const PostList = BlogContent.slice(0, 5);
+    const PostList = BlogContent.slice(0);
 
     window.addEventListener("scroll", function () {
       var value = window.scrollY;
@@ -268,6 +271,13 @@ class HomeParticles extends Component {
                           </h1>
                         ) : (
                           ""
+                        )}{" "}
+                        {value.subTitle ? (
+                          <h3 className="title theme-gradient">
+                            {value.subTitle}
+                          </h3>
+                        ) : (
+                          ""
                         )}
                         {value.category2 ? <span>{value.category2}</span> : ""}
                         {value.description ? (
@@ -309,6 +319,60 @@ class HomeParticles extends Component {
         <div className="about-area about-position-top pb--120 bg_color--1">
           <About />
         </div>
+
+        {/* Start Blog Area */}
+        <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
+          <div className="container">
+            <div className="row align-items-end">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="section-title text-left">
+                  <h2>What We Do</h2>
+                  <p>
+                    We deliver end-to-end digital solutions built around three
+                    core pillars that drive performance and growth.
+                  </p>
+                </div>
+              </div>
+              {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
+                  <a className="btn-transparent rn-btn-dark" href="/blog">
+                    <span className="text">View All News</span>
+                  </a>
+                </div>
+              </div> */}
+            </div>
+            <div className="row mt--60 mt_sm--40">
+              {PostList.map((value, i) => (
+                <div className="col-lg-4 col-md-6 col-12" key={i}>
+                  <div className="blog blog-style--1">
+                    <div className="thumbnail">
+                      <a href="/blog-details">
+                        <img
+                          className="w-100"
+                          src={value.images}
+                          alt="Blog Images"
+                        />
+                      </a>
+                    </div>
+                    <div className="content">
+                      <p className="blogtype">{value.category}</p>
+                      <h4 className="title">
+                        <a href="/blog-details">{value.title}</a>
+                      </h4>
+                      <div className="blog-btn">
+                        <a className="rn-btn text-white" href="/blog-details">
+                          Discover Service
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        {/* End Blog Area */}
+
         {/* End About Area */}
         {/* Start Service Area  */}
         <div className="service-area ptb--80  bg_image bg_image--3">
@@ -317,10 +381,9 @@ class HomeParticles extends Component {
           </div>
         </div>
         {/* End Service Area  */}
-        {/* Start About Area  */}
-        {/* End About Area  */}
+
         {/* Start How We Work */}
-        <div className="rn-about-area ptb--120 bg_color--1">
+        {/* <div className="rn-about-area ptb--120 bg_color--1">
           <div className="rn-about-wrapper">
             <div className="container">
               <div className="row row--35 align-items-center">
@@ -406,7 +469,7 @@ class HomeParticles extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Start Single Area */}
         <div className="rn-service-details ptb--120 bg_color--1">

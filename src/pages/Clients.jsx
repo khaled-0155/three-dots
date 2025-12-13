@@ -37,6 +37,38 @@ const SocialShare = [
 
 const projects = [
   {
+    title: "AVON",
+    tagline: "The Operations Proof",
+    desc: "Avon didn’t start with a module. It started with a challenge. The brand needed to turn scattered internal workflows into a unified, intelligent operating system.",
+    extra:
+      "We initiated the Odoo transformation to replace manual processes, disconnected tools, and operational silos with a single, scalable ecosystem. Today, we continue to lead Avon’s digital backbone through an integrated Odoo journey covering sales, inventory, accounting, CRM, and fulfillment.",
+    image: placeholder,
+    branch: "Digital Transformation",
+    type: "Odoo ERP Implementation",
+    program: "Unified Operations System",
+  },
+  {
+    title: "Munaqes",
+    tagline: "The Procurement Solution",
+    desc: "Munaqes started with an industry gap. The procurement and bidding cycle was slow, fragmented, and heavily dependent on outdated manual processes.",
+    extra:
+      "We built Munaqes as a software platform engineered to streamline procurement, digitalize vendor interactions, and create a transparent end-to-end bidding ecosystem for businesses. Today, we guide Munaqes through its evolution as a powerful, data-driven procurement engine.",
+    image: placeholder,
+    branch: "Procurement Tech",
+    type: "Software Platform",
+    program: "Digital Platform",
+  },
+  {
+    title: "Volt+",
+    tagline: "Our Pinnacle of Skills",
+    desc: "We engineered Volt+ as a scalable software system designed for efficiency with real-time insights for industrial and commercial environments.",
+    extra: "Today, we continue to drive Volt+ toward becoming a lead platform.",
+    image: placeholder,
+    branch: "Energy Tech",
+    type: "Software System",
+    program: "Management Platform",
+  },
+  {
     title: "Court Plus",
     tagline: "The Product Architect",
     desc: "Court Plus didn’t start with a brief—it started with a vision. We initiated the concept internally to solve the fragmented, outdated court-booking experience.",

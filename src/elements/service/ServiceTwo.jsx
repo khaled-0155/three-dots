@@ -31,36 +31,40 @@ const defaultConetnt = [
 const ServiceTwo = ({ content }) => {
   const ServiceList = content || defaultConetnt;
 
-  const title = "Services";
-  const description =
-    "We deliver end-to-end digital solutions across three core pillars";
-
   return (
-    <div className="row">
-      <div className="col-lg-4 col-12">
-        <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
-          <h2 className="title">{title}</h2>
-          <p>{description}</p>
-          <div className="service-btn">
-            <a className="btn-transparent rn-btn-dark" href="/services">
-              <span className="text">Discover Our Services</span>
-            </a>
+    <div className="service-area ptb--120 bg_color--5">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="section-title text-center mb--30">
+              <h2>How We Work</h2>
+              <h4>
+                <span>Clarity Agility Execution</span>
+              </h4>
+              <p>
+                Our process is built around one goal: getting real results, not
+                just delivering deliverables. We work closely with each client,
+                combining strategy, design, and tech to solve the right problems
+                in the right way.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="col-lg-8 col-12 mt_md--50">
         <div className="row service-one-wrapper">
           {ServiceList.map((val, i) => (
-            <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-              <Link to={`/services/${val?.link}`}>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12" key={i}>
+              <a href="/service-details">
                 <div className="service service__style--2">
+                  <h3 className="number">{val.number}</h3>
+
                   <div className="icon">{val.icon}</div>
+
                   <div className="content">
                     <h3 className="title">{val.title}</h3>
                     <p>{val.description}</p>
                   </div>
                 </div>
-              </Link>
+              </a>
             </div>
           ))}
         </div>

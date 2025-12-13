@@ -23,7 +23,10 @@ class Footer extends Component {
               <div className="col-lg-6">
                 <div className="footer-left">
                   <div className="inner">
-                    <span>Ready To Do This</span>
+                    <span>
+                      We don’t do cookie-cutter solutions. We listen, we
+                      collaborate, and we build what matters.
+                    </span>
                     <h2>
                       Let's get <br /> to work
                     </h2>

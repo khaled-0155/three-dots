@@ -6,33 +6,18 @@ import blog4 from "../../assets/images/blog/blog-04.jpg";
 const BlogContent = [
   {
     images: blog1,
-    title: " Getting tickets to the big show",
+    title: "Odoo Systems – Streamline and automate your operations.",
     category: "Development",
   },
   {
     images: blog2,
-    title: "A big ticket gone to be an interesting ",
+    title:
+      "Digital Marketing – Reach, engage, and convert with data-driven strategy.",
     category: "Management",
   },
-
   {
     images: blog3,
-    title: "The Home of the Future Could Bebes",
-    category: "Design",
-  },
-  {
-    images: blog4,
-    title: " Getting tickets to the big show",
-    category: "Development",
-  },
-  {
-    images: blog1,
-    title: "A big ticket gone to be an interesting ",
-    category: "Management",
-  },
-  {
-    images: blog2,
-    title: "The Home of the Future Could Bebes",
+    title: "Software Solutions – Transform ideas into powerful digital tools.",
     category: "Design",
   },
 ];

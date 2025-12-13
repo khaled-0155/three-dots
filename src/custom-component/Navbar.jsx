@@ -44,8 +44,16 @@ export default function Navbar({ logoColor = "black" }) {
               <li>
                 <Link to="/">Home</Link>
               </li>
-
-              <li className="has-droupdown">
+              <li>
+                <Link to="/odoo">Odoo Service</Link>
+              </li>
+              <li>
+                <Link to="/digital-marketing">Digital Marketing</Link>
+              </li>{" "}
+              <li>
+                <Link to="/software-services">Software Services</Link>
+              </li>
+              {/* <li className="has-droupdown">
                 <Link to="/services">Services</Link>
                 <ul className="submenu">
                   <li>
@@ -58,16 +66,13 @@ export default function Navbar({ logoColor = "black" }) {
                     <Link to="/services/software">Software Solutions</Link>
                   </li>
                 </ul>
-              </li>
-
+              </li> */}
               <li>
                 <Link to="/about">About</Link>
               </li>
-
               <li>
                 <Link to="/clients">Clients</Link>
               </li>
-
               <li>
                 <Link to="/contact">Contact</Link>
               </li>

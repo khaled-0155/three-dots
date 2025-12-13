@@ -58,6 +58,9 @@ import CustomServiceDetails from "./pages/CustomServiceDetails.jsx";
 import CustomAbout from "./pages/CustomAbout.jsx";
 import CustomContact from "./pages/CustomContact.jsx";
 import Clients from "./pages/Clients.jsx";
+import Oddo from "./pages/Oddo.jsx";
+import Marketing from "./pages/Marketing.jsx";
+import Software from "./pages/Software.jsx";
 
 function App() {
   return (
@@ -67,10 +70,14 @@ function App() {
           {/* <Route index element={<Demo />} /> */}
           {/* <Route index element={<DarkMainDemo />} /> */}
           <Route index element={<Home />} />
+          <Route path={`odoo`} element={<Oddo />} />
+          <Route path={`digital-marketing`} element={<Marketing />} />
+          <Route path={`software-services`} element={<Software />} />
+
           <Route path="clients" element={<Clients />} />
-          <Route path={`services/:id`} element={<CustomServiceDetails />} />
+          {/* <Route path={`services/:id`} element={<CustomServiceDetails />} />
           <Route path={`services`} element={<Services />} />
-          <Route path={`about`} element={<CustomAbout />} />
+          <Route path={`about`} element={<CustomAbout />} /> */}
           <Route path={`contact`} element={<CustomContact />} />
           <Route path="*" element={<Error404 />} />
 

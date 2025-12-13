@@ -12,7 +12,7 @@ import testimonialImg8 from "../assets/images/client/testimonial-8.jpg";
 
 const testimonialData = [
   {
-    text: `Choosing 3 dots means choosing a partner who sees the big picture—and builds to match it.`,
+    text: `Choosing Three dots means choosing a partner who sees the big picture—and builds to match it.`,
     author: "Aklima",
   },
   // {
