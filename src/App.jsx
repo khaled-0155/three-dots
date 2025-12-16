@@ -78,6 +78,7 @@ function App() {
           {/* <Route path={`services/:id`} element={<CustomServiceDetails />} />
           <Route path={`services`} element={<Services />} />
           <Route path={`about`} element={<CustomAbout />} /> */}
+          <Route path={`about`} element={<CustomAbout />} />
           <Route path={`contact`} element={<CustomContact />} />
           <Route path="*" element={<Error404 />} />
 
