@@ -26,7 +26,7 @@ const SlideList = [
     textPosition: "text-center",
     category: "Integrated Business & Digital Solutions That Drive Results",
     title: "Welcome to Three Dots",
-    subTitle: "Odoo Systems. Smart Marketing. Custom Software",
+    // subTitle: "Odoo Systems. Smart Marketing. Custom Software",
     category2: "",
     description:
       "We help businesses scale efficiently by integrating operations, marketing, and technology into one powerful ecosystem. ",
@@ -266,9 +266,24 @@ class HomeParticles extends Component {
                       <div className={`inner ${value.textPosition}`}>
                         {value.category ? <span>{value.category}</span> : ""}
                         {value.title ? (
-                          <h1 className="title theme-gradient">
-                            {value.title}
-                          </h1>
+                          // <h1 className="title theme-gradient">
+                          //   {value.title}
+                          // </h1>
+                          <>
+                            <h2
+                              className="title"
+                              style={{
+                                color: "#cc3918",
+                                fontWeight: "500",
+                                marginBottom: 0,
+                              }}
+                            >
+                              WELCOME TO
+                            </h2>
+                            <h1 style={{ color: "#fff", fontWeight: "400" }}>
+                              <strong>THREE</strong> DOTS
+                            </h1>
+                          </>
                         ) : (
                           ""
                         )}{" "}

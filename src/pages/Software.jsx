@@ -4,8 +4,8 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
 
-import serviceImg from "../assets/images/service/service-01.png";
-import findingImg from "../assets/images/about/finding-us-01.png";
+import serviceImg from "../assets/images/software/software-1.png";
+import findingImg from "../assets/images/software/software-2.png";
 import Navbar from "../custom-component/Navbar";
 
 import {

@@ -15,7 +15,10 @@ export default function Navbar({ logoColor = "black" }) {
   };
 
   return (
-    <header className="header-area formobile-menu header--fixed">
+    <header
+      style={{ padding: "1rem 2rem" }}
+      className="header-area formobile-menu header--fixed"
+    >
       <div className="header-wrapper" id="header-wrapper">
         {/* Logo */}
         <div className="header-left">
@@ -73,24 +76,26 @@ export default function Navbar({ logoColor = "black" }) {
               <li>
                 <Link to="/clients">Clients</Link>
               </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
             </ul>
           </nav>
 
           {/* Mobile Menu Icons */}
-          <div className="humberger-menu d-block d-lg-none pl--20">
-            <span onClick={menuTrigger} className="menutrigger text-white">
+          {/* Mobile Menu */}
+          <div className="humberger-menu d-block d-xl-none pl--20">
+            <span onClick={menuTrigger} className="menutrigger">
               <FiMenu />
             </span>
           </div>
-          <div className="close-menu d-block d-lg-none">
+          <div className=" close-menu d-block d-lg-none">
             <span onClick={closeMenuTrigger} className="closeTrigger">
               <FiX />
             </span>
           </div>
         </div>
+
+        <Link to="/contact" className="rn-button-style--2 btn-solid">
+          Contact
+        </Link>
       </div>
     </header>
   );

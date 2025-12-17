@@ -3,8 +3,8 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
-import about from "../assets/images/about/about-3.jpg";
-import findingImg from "../assets/images/about/finding-us-01.png";
+import about from "../assets/images/marketing/marketing-1.png";
+import findingImg from "../assets/images/marketing/marketing-2.png";
 
 import {
   FiShare2,

@@ -624,3 +624,12 @@
   background: none;
   display: none;
 }
+
+/* MOBILE */
+@media (max-width: 1100px) {
+  .humberger-menu,
+  .close-menu {
+    color: white !important;
+    display: block !important;
+  }
+}

@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
 import Footer from "../component/footer/Footer";
-import findingImg from "../assets/images/about/finding-us-01.png";
-import imgOne from "../assets/images/blog/bl-big-01.jpg";
-import imgTwo from "../assets/images/blog/blog-single-01.png";
+// import findingImg from "../assets/images/about/finding-us-01.png";
+import imgOne from "../assets/images/odoo/odoo-1.jpg";
+import imgTwo from "../assets/images/odoo/odoo-2.jpg";
+import findingImg from "../assets/images/odoo/odoo-3.jpg";
 import Navbar from "../custom-component/Navbar";
 
 import {

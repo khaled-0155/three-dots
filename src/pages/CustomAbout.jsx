@@ -4,7 +4,7 @@ import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import Testimonial from "../elements/Testimonial";
 import Footer from "../component/footer/Footer";
-import findingImg from "../assets/images/about/finding-us-011.png";
+import findingImg from "../assets/images/about/about.png";
 
 import Navbar from "../custom-component/Navbar";
 import About from "../component/HomeLayout/homeOne/About";
