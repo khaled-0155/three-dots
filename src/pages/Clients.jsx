@@ -47,17 +47,17 @@ const projects = [
     type: "Odoo ERP Implementation",
     program: "Unified Operations System",
   },
-  {
-    title: "Munaqes",
-    tagline: "The Procurement Solution",
-    desc: "Munaqes started with an industry gap. The procurement and bidding cycle was slow, fragmented, and heavily dependent on outdated manual processes.",
-    extra:
-      "We built Munaqes as a software platform engineered to streamline procurement, digitalize vendor interactions, and create a transparent end-to-end bidding ecosystem for businesses. Today, we guide Munaqes through its evolution as a powerful, data-driven procurement engine.",
-    image: placeholder,
-    branch: "Procurement Tech",
-    type: "Software Platform",
-    program: "Digital Platform",
-  },
+  // {
+  //   title: "Munaqes",
+  //   tagline: "The Procurement Solution",
+  //   desc: "Munaqes started with an industry gap. The procurement and bidding cycle was slow, fragmented, and heavily dependent on outdated manual processes.",
+  //   extra:
+  //     "We built Munaqes as a software platform engineered to streamline procurement, digitalize vendor interactions, and create a transparent end-to-end bidding ecosystem for businesses. Today, we guide Munaqes through its evolution as a powerful, data-driven procurement engine.",
+  //   image: placeholder,
+  //   branch: "Procurement Tech",
+  //   type: "Software Platform",
+  //   program: "Digital Platform",
+  // },
   {
     title: "Volt+",
     tagline: "Our Pinnacle of Skills",
@@ -68,28 +68,28 @@ const projects = [
     type: "Software System",
     program: "Management Platform",
   },
-  {
-    title: "Court Plus",
-    tagline: "The Product Architect",
-    desc: "Court Plus didn’t start with a brief—it started with a vision. We initiated the concept internally to solve the fragmented, outdated court-booking experience.",
-    extra:
-      "Today, we continue to lead Court Plus through its growth journey across the region.",
-    image: courtImg,
-    branch: "Sports Tech",
-    type: "Mobile + Web App",
-    program: "Digital Platform",
-  },
-  {
-    title: "Ringo",
-    tagline: "The Engineer Within",
-    desc: "Ringo came with a goal—streamline queueing and ticketing—but lacked definition. We stepped in to co-architect the product, mapping user flows for customers, admins, and staff.",
-    extra:
-      "With QR scanning, dynamic queue logic, and real-time updates, Ringo is now in pilot across high-traffic venues.",
-    image: ringoImg,
-    branch: "Operations",
-    type: "App + Dashboard",
-    program: "Queue Management",
-  },
+  // {
+  //   title: "Court Plus",
+  //   tagline: "The Product Architect",
+  //   desc: "Court Plus didn’t start with a brief—it started with a vision. We initiated the concept internally to solve the fragmented, outdated court-booking experience.",
+  //   extra:
+  //     "Today, we continue to lead Court Plus through its growth journey across the region.",
+  //   image: courtImg,
+  //   branch: "Sports Tech",
+  //   type: "Mobile + Web App",
+  //   program: "Digital Platform",
+  // },
+  // {
+  //   title: "Ringo",
+  //   tagline: "The Engineer Within",
+  //   desc: "Ringo came with a goal—streamline queueing and ticketing—but lacked definition. We stepped in to co-architect the product, mapping user flows for customers, admins, and staff.",
+  //   extra:
+  //     "With QR scanning, dynamic queue logic, and real-time updates, Ringo is now in pilot across high-traffic venues.",
+  //   image: ringoImg,
+  //   branch: "Operations",
+  //   type: "App + Dashboard",
+  //   program: "Queue Management",
+  // },
   {
     title: "Technique Fitness",
     tagline: "The Digital Coach",
