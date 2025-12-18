@@ -9,6 +9,18 @@ import findingImg from "../assets/images/about/about.png";
 import Navbar from "../custom-component/Navbar";
 import About from "../component/HomeLayout/homeOne/About";
 import Contact from "../elements/contact/ContactTwo";
+import Slider from "react-slick";
+
+export const slideSlick = {
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: true,
+  fade: true,
+  easing: "fade",
+  adaptiveHeight: true,
+};
 
 const longDescription = [
   "At Three Dots, we believe that true digital transformation is not about adding more tools, it’s about building an ecosystem where strategy, systems, and execution operate in harmony.",
@@ -21,6 +33,20 @@ const longDescription = [
   "Our vision is to redefine business growth, creating a future where organisations no longer manage disconnected departments, but operate as one intelligent, interconnected network.",
   "Every project we take on begins with understanding — your goals, your challenges, your opportunities. Then we connect the dots: transforming ideas into structure, and strategy into success.",
   "At Three Dots, we don’t just deliver digital solutions; we build ecosystems that last.",
+];
+
+const SlideList = [
+  {
+    textPosition: "text-left",
+    bgImage: "bg_image--17",
+    category: "",
+    title: "Want to see the full picture?",
+    description:
+      "Download our business profile and discover how we connect strategy and technology to drive real growth.",
+    buttonText: "Download Now",
+    buttonLink:
+      "https://three-dots.s3.eu-central-1.amazonaws.com/docs/3Dots+Portfolio--.pdf",
+  },
 ];
 
 const CustomAbout = () => {
@@ -66,6 +92,55 @@ const CustomAbout = () => {
       <div className="rn-testimonial-area bg_color--5 ptb--120">
         <div className="container">
           <Testimonial />
+        </div>
+      </div>
+
+      <div className="slider-wrapper">
+        <div className="slider-activation">
+          <Slider className="rn-slick-dot dot-light" {...slideSlick}>
+            {SlideList.map((value, index) => (
+              <div
+                className={`slide slide-style-2 d-flex align-items-center justify-content-center bg_image ${value.bgImage}`}
+                key={index}
+                data-black-overlay="8"
+              >
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className={`inner ${value.textPosition}`}>
+                        {value.category ? <span>{value.category}</span> : ""}
+                        {value.title ? (
+                          <h1 className="title">{value.title}</h1>
+                        ) : (
+                          ""
+                        )}
+                        {value.description ? (
+                          <p className="description">{value.description}</p>
+                        ) : (
+                          ""
+                        )}
+                        {value.buttonText ? (
+                          <div className="slide-btn">
+                            <a
+                              className="rn-button-style--2 btn-solid"
+                              href={`${value.buttonLink}`}
+                              download
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {value.buttonText}
+                            </a>
+                          </div>
+                        ) : (
+                          ""
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
 
