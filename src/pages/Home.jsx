@@ -20,6 +20,7 @@ import { GrOptimize } from "react-icons/gr";
 import Footer from "../component/footer/Footer";
 import Navbar from "../custom-component/Navbar";
 import BrandOne from "../elements/Brand";
+import { Link } from "react-router-dom";
 
 const SlideList = [
   {
@@ -310,12 +311,12 @@ class HomeParticles extends Component {
                         >
                           {value.buttonText ? (
                             <div className="slide-btn">
-                              <a
+                              <Link
                                 className="rn-button-style--2 btn-primary-color"
-                                href={`${value.buttonLink}`}
+                                to={`${value.buttonLink}`}
                               >
                                 {value.buttonText}
-                              </a>
+                              </Link>
                             </div>
                           ) : (
                             ""
@@ -361,26 +362,26 @@ class HomeParticles extends Component {
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <Link to={`/${value.link}`}>
                         <img
                           className="w-100"
                           src={value.images}
                           alt="Blog Images"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
+                        <Link to={`/${value.link}`}>{value.title}</Link>
                       </h4>
                       <div className="blog-btn">
-                        <a
+                        <Link
                           className="rn-btn text-white"
-                          href={`/${value.link}`}
+                          to={`/${value.link}`}
                         >
                           Discover Service
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
