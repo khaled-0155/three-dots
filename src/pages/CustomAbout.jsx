@@ -45,7 +45,7 @@ const SlideList = [
       "Download our business profile and discover how we connect strategy and technology to drive real growth.",
     buttonText: "Download Now",
     buttonLink:
-      "https://three-dots.s3.eu-central-1.amazonaws.com/docs/3Dots+Portfolio--.pdf",
+      "https://3dots-uploads.s3.eu-central-1.amazonaws.com/3Dots+Portfolio--.pdf",
   },
 ];
 
