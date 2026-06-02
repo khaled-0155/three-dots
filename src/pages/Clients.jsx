@@ -1,32 +1,27 @@
-import React, { useState } from "react";
-import PageHelmet from "../component/common/Helmet";
-import ModalVideo from "react-modal-video";
+import { useState } from "react";
 import {
-  FaTwitter,
-  FaInstagram,
   FaFacebookF,
+  FaInstagram,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
-import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import ScrollToTop from "react-scroll-up";
+import PageHelmet from "../component/common/Helmet";
 import Footer from "../component/footer/Footer";
 import Contact from "../elements/contact/ContactTwo";
 
 // Replace with your actual client images later
-import placeholder from "../assets/images/portfolio/portfolio-big-01.jpg";
-import courtImg from "../assets/images/clients/thumb/court.png";
-import nadiImg from "../assets/images/clients/thumb/nadi.png";
+import fitnessImg from "../assets/images/clients/thumb/fitness.png";
 import floraImg from "../assets/images/clients/thumb/flora.png";
 import jtImg from "../assets/images/clients/thumb/jt.png";
 import magicImg from "../assets/images/clients/thumb/magic.png";
-import ringoImg from "../assets/images/clients/thumb/ringo.png";
-import tarafImg from "../assets/images/clients/thumb/taraf.png";
-import fitnessImg from "../assets/images/clients/thumb/fitness.png";
 import mealsImg from "../assets/images/clients/thumb/meals.png";
-import Breadcrumb from "../elements/common/Breadcrumb";
+import nadiImg from "../assets/images/clients/thumb/nadi.png";
+import tarafImg from "../assets/images/clients/thumb/taraf.png";
+import placeholder from "../assets/images/portfolio/portfolio-big-01.jpg";
 import Navbar from "../custom-component/Navbar";
-import BrandOne from "../elements/Brand";
+import Breadcrumb from "../elements/common/Breadcrumb";
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
@@ -225,7 +220,7 @@ const Clients = () => {
                 </div>
 
                 {/* Social Links */}
-                <div className="portfolio-share-link mt--20 pb--40">
+                {/* <div className="portfolio-share-link mt--20 pb--40">
                   <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                     {SocialShare.map((val, i) => (
                       <li key={i}>
@@ -233,7 +228,7 @@ const Clients = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
