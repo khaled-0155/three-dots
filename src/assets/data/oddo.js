@@ -2,7 +2,7 @@ export const oddoData = {
   title: "Odoo Services",
   intro: [
     "Unify Your Operations. Empower Your Teams. Scale Without Chaos.",
-    "At 3 Dots, we believe technology should adapt to your business, not the other way around.",
+    "At Three Dots, we believe technology should adapt to your business, not the other way around.",
     "That’s why we implement Odoo, an all-in-one ERP platform that unifies every aspect of your operations under a single, intelligent system.",
     "From finance and HR to inventory, sales, and CRM, Odoo brings your teams, data, and workflows together to work in perfect sync.",
     "Our Odoo experts analyse your business model, identify process gaps, and build tailored modules that enhance efficiency, visibility, and scalability.",
@@ -125,7 +125,7 @@ export const oddoData = {
     },
 
     {
-      title: "Why Choose 3 Dots for Odoo",
+      title: "Why Choose Three Dots for Odoo",
       description: [
         "We shape Odoo around your business—not the other way around.",
         "Our certified team ensures every integration, automation, and module creates real business value.",
@@ -134,7 +134,7 @@ export const oddoData = {
   ],
 
   closing: [
-    "At 3 Dots, Odoo becomes more than software—it becomes the operational engine that drives your business forward.",
+    "At Three Dots, Odoo becomes more than software—it becomes the operational engine that drives your business forward.",
     "Ready to streamline your operations with Odoo? Let’s design a system built for your growth.",
   ],
 };

@@ -12,6 +12,7 @@ import Footer from "../component/footer/Footer";
 import Contact from "../elements/contact/ContactTwo";
 
 // Replace with your actual client images later
+import avonImg from "../assets/images/clients/thumb/avon.png";
 import fitnessImg from "../assets/images/clients/thumb/fitness.png";
 import floraImg from "../assets/images/clients/thumb/flora.png";
 import jtImg from "../assets/images/clients/thumb/jt.png";
@@ -19,7 +20,7 @@ import magicImg from "../assets/images/clients/thumb/magic.png";
 import mealsImg from "../assets/images/clients/thumb/meals.png";
 import nadiImg from "../assets/images/clients/thumb/nadi.png";
 import tarafImg from "../assets/images/clients/thumb/taraf.png";
-import placeholder from "../assets/images/portfolio/portfolio-big-01.jpg";
+import voltImg from "../assets/images/clients/thumb/volt.png";
 import Navbar from "../custom-component/Navbar";
 import Breadcrumb from "../elements/common/Breadcrumb";
 
@@ -37,7 +38,7 @@ const projects = [
     desc: "Avon didn’t start with a module. It started with a challenge. The brand needed to turn scattered internal workflows into a unified, intelligent operating system.",
     extra:
       "We initiated the Odoo transformation to replace manual processes, disconnected tools, and operational silos with a single, scalable ecosystem. Today, we continue to lead Avon’s digital backbone through an integrated Odoo journey covering sales, inventory, accounting, CRM, and fulfillment.",
-    image: placeholder,
+    image: avonImg,
     branch: "Digital Transformation",
     type: "Odoo ERP Implementation",
     program: "Unified Operations System",
@@ -58,7 +59,7 @@ const projects = [
     tagline: "Our Pinnacle of Skills",
     desc: "We engineered Volt+ as a scalable software system designed for efficiency with real-time insights for industrial and commercial environments.",
     extra: "Today, we continue to drive Volt+ toward becoming a lead platform.",
-    image: placeholder,
+    image: voltImg,
     branch: "Energy Tech",
     type: "Software System",
     program: "Management Platform",

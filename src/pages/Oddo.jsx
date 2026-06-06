@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
+import PageHelmet from "../component/common/Helmet";
 import Footer from "../component/footer/Footer";
 // import findingImg from "../assets/images/about/finding-us-01.png";
 import imgOne from "../assets/images/odoo/odoo-1.jpg";
@@ -9,24 +8,24 @@ import findingImg from "../assets/images/odoo/odoo-3.jpg";
 import Navbar from "../custom-component/Navbar";
 
 import {
-  FiSettings,
-  FiLayers,
-  FiUploadCloud,
-  FiCode,
-  FiChevronUp,
-  FiBookOpen,
-  FiHelpCircle,
-  FiFileText,
-  FiMonitor,
-  FiSmartphone,
-  FiPenTool,
-  FiLink2,
-  FiRefreshCcw,
-  FiTrendingUp,
-  FiCpu,
-  FiMessageSquare,
-  FiCheck,
   FiBarChart2,
+  FiBookOpen,
+  FiCheck,
+  FiChevronUp,
+  FiCode,
+  FiCpu,
+  FiFileText,
+  FiHelpCircle,
+  FiLayers,
+  FiLink2,
+  FiMessageSquare,
+  FiMonitor,
+  FiPenTool,
+  FiRefreshCcw,
+  FiSettings,
+  FiSmartphone,
+  FiTrendingUp,
+  FiUploadCloud,
 } from "react-icons/fi";
 
 const AIAutomationList = [
@@ -190,7 +189,7 @@ const Oddo = () => {
               <div className="inner-wrapper">
                 <div className="inner">
                   <p>
-                    At 3 Dots, we believe technology should adapt to your
+                    At Three Dots, we believe technology should adapt to your
                     business, not the other way around. That’s why we implement
                     Odoo, an all-in-one ERP platform that unifies every aspect
                     of your operations under a single, intelligent system.
@@ -398,9 +397,10 @@ const Oddo = () => {
                 <h2>AI & Automation</h2>
                 <p>
                   Smart businesses don’t just collect data, they use it to make
-                  better decisions. At 3 Dots, we integrate AI-driven tools and
-                  automation workflows into your Odoo system to unlock deeper
-                  insights, faster processes, and more intelligent operations.
+                  better decisions. At Three Dots, we integrate AI-driven tools
+                  and automation workflows into your Odoo system to unlock
+                  deeper insights, faster processes, and more intelligent
+                  operations.
                 </p>
               </div>
             </div>
@@ -463,7 +463,7 @@ const Oddo = () => {
                   </div>
 
                   <div className="content">
-                    <h4 className="title">Why Choose 3 Dots for Odoo</h4>
+                    <h4 className="title">Why Choose Three Dots for Odoo</h4>
 
                     <ul className="list-style">
                       <li>
@@ -471,7 +471,7 @@ const Oddo = () => {
                         that understands both technology and business logic.
                       </li>
                       <li>
-                        At 3 Dots, we don’t just install Odoo — we shape it
+                        At Three Dots, we don’t just install Odoo — we shape it
                         around your goals, workflows, and growth ambitions.
                       </li>
                       <li>
@@ -517,7 +517,7 @@ const Oddo = () => {
           <div className="content-wrapper">
             <div className="content">
               <h4 className="theme-gradient">
-                At 3 Dots, Odoo becomes more than software, it becomes the
+                At Three Dots, Odoo becomes more than software, it becomes the
                 operational engine that drives your business forward.
               </h4>
               <p>

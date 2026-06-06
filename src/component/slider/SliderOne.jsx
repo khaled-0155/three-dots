@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import ServiceOne from "../../elements/service/ServiceOne";
+import { Component } from "react";
 import icon1 from "../../assets/images/icons/icon-01.png";
 import icon2 from "../../assets/images/icons/icon-02.png";
 import icon3 from "../../assets/images/icons/icon-03.png";
+import ServiceOne from "../../elements/service/ServiceOne";
 const services = [
   {
     title: "ERP Systems",
@@ -36,7 +36,8 @@ class SliderOne extends Component {
               <div className="col-lg-12">
                 <div className="inner">
                   <h1 className="title theme-gradient">
-                    Welcome to <br />3 Dots agency.{" "}
+                    Welcome to <br />
+                    Three Dots agency.{" "}
                   </h1>
                 </div>
               </div>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import {
-  FaTwitter,
-  FaInstagram,
   FaFacebookF,
+  FaInstagram,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 
 const SocialShare = [
@@ -84,9 +84,7 @@ class Footer extends Component {
 
                     <div className="col-lg-12">
                       <div className="copyright-text">
-                        <p>
-                          Copyright © 2025 Point Seven. All Rights Reserved.
-                        </p>
+                        <p>Copyright © 2025 Three Dots. All Rights Reserved.</p>
                       </div>
                     </div>
                   </div>

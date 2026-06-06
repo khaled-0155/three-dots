@@ -1,17 +1,19 @@
-import PageHelmet from "../component/common/Helmet";
-import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
+import ScrollToTop from "react-scroll-up";
+import PageHelmet from "../component/common/Helmet";
 import Footer from "../component/footer/Footer";
 
+import { useParams } from "react-router-dom";
 import erpImg1 from "../assets/images/service/erp-01.jpg";
 import erpImg2 from "../assets/images/service/erp-02.jpg";
 import marketingImg1 from "../assets/images/service/market-01.jpg";
 import marketingImg2 from "../assets/images/service/market-02.jpg";
-import softwareImg1 from "../assets/images/service/software.jpg";
-import softwareImg2 from "../assets/images/service/software.jpg";
-import { useParams } from "react-router-dom";
-import Contact from "../elements/contact/ContactTwo";
+import {
+  default as softwareImg1,
+  default as softwareImg2,
+} from "../assets/images/service/software.jpg";
 import Navbar from "../custom-component/Navbar";
+import Contact from "../elements/contact/ContactTwo";
 
 const serviceDetailsData = [
   {
@@ -22,7 +24,7 @@ const serviceDetailsData = [
     sections: [
       {
         paragraphs: [
-          "At 3 dots, we develop and implement end-to-end ERP systems tailored to your business model, no matter the size or sector.",
+          "At Three Dots, we develop and implement end-to-end ERP systems tailored to your business model, no matter the size or sector.",
           "Our ERP solutions centralize your data, automate manual tasks, and bring clarity to every department.",
         ],
         title: "What Our Systems Offer",
@@ -59,7 +61,7 @@ const serviceDetailsData = [
     sections: [
       {
         paragraphs: [
-          "At 3 dots, our digital marketing services are not just about traffic, they're about traction.",
+          "At Three Dots, our digital marketing services are not just about traffic, they're about traction.",
           "We design and execute performance-driven strategies that attract, engage, and convert the right audience for your business.",
         ],
         title: "Our Marketing Capabilities Include",

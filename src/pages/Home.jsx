@@ -1,26 +1,26 @@
 import { Component } from "react";
 
+import { FiChevronUp } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import serviceImg from "../assets/images/service/service-011.png";
-import { FiChevronUp } from "react-icons/fi";
 
+import Helmet from "../component/common/Helmet";
 import Testimonial from "../elements/Testimonial";
 import BlogContent from "../elements/blog/BlogContent";
 import Contact from "../elements/contact/ContactTwo";
-import Helmet from "../component/common/Helmet";
 
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-import About from "../component/HomeLayout/homeOne/About";
-import ServiceTwo from "../elements/service/ServiceTwo";
-import { TbWorldSearch } from "react-icons/tb";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { IoBuildOutline } from "react-icons/io5";
 import { GrOptimize } from "react-icons/gr";
+import { IoBuildOutline } from "react-icons/io5";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { TbWorldSearch } from "react-icons/tb";
+import { Link } from "react-router-dom";
+import About from "../component/HomeLayout/homeOne/About";
 import Footer from "../component/footer/Footer";
 import Navbar from "../custom-component/Navbar";
 import BrandOne from "../elements/Brand";
-import { Link } from "react-router-dom";
+import ServiceTwo from "../elements/service/ServiceTwo";
 
 const SlideList = [
   {
@@ -508,7 +508,7 @@ class HomeParticles extends Component {
                         </div>
                       </div>
                       <div className="col-lg-6 col-12">
-                        <h2 className="title">Why Choose 3 dots</h2>
+                        <h2 className="title">Why Choose Three Dots</h2>
                         <h4 className="">
                           Not Just Another Tech Provider.. A Growth Partner
                         </h4>

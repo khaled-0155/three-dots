@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
-import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
+import ScrollToTop from "react-scroll-up";
+import PageHelmet from "../component/common/Helmet";
 import Footer from "../component/footer/Footer";
 
 import serviceImg from "../assets/images/software/software-1.png";
@@ -11,8 +11,8 @@ import Navbar from "../custom-component/Navbar";
 import {
   FiDatabase,
   FiGlobe,
-  FiSmartphone,
   FiShoppingCart,
+  FiSmartphone,
   FiTool,
 } from "react-icons/fi";
 
@@ -204,7 +204,7 @@ class Software extends Component {
             <div className="content-wrapper">
               <div className="content">
                 <h4 className="theme-gradient">
-                  At 3 Dots, software isn’t a product, it’s a partnership
+                  At Three Dots, software isn’t a product, it’s a partnership
                   between logic and vision.
                 </h4>
                 <p>

@@ -1,18 +1,18 @@
-import PageHelmet from "../component/common/Helmet";
-import Breadcrumb from "../elements/common/Breadcrumb";
-import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Footer from "../component/footer/Footer";
+import ScrollToTop from "react-scroll-up";
 import about from "../assets/images/marketing/marketing-1.png";
 import findingImg from "../assets/images/marketing/marketing-2.png";
+import PageHelmet from "../component/common/Helmet";
+import Footer from "../component/footer/Footer";
+import Breadcrumb from "../elements/common/Breadcrumb";
 
 import {
-  FiShare2,
+  FiBarChart2,
   FiEdit3,
+  FiSearch,
+  FiShare2,
   FiTarget,
   FiTrendingUp,
-  FiSearch,
-  FiBarChart2,
 } from "react-icons/fi";
 import Navbar from "../custom-component/Navbar";
 
@@ -137,7 +137,7 @@ const Marketing = () => {
                     </p>
 
                     <p className="description">
-                      Because at 3 Dots, we don’t chase reach, we build
+                      Because at Three Dots, we don’t chase reach, we build
                       momentum. Your brand deserves marketing that delivers
                       outcomes, not promises.
                     </p>
