@@ -61,10 +61,7 @@ const CustomContact = () => {
                 <div className="inner">
                   <h4 className="title">Contact With Phone Number</h4>
                   <p>
-                    <a href="tel:+057254365456">+057 254 365 456</a>
-                  </p>
-                  <p>
-                    <a href="tel:+856325652984">+856 325 652 984</a>
+                    <a href="tel:+966537556518">+966 537 556 518</a>
                   </p>
                 </div>
               </div>
