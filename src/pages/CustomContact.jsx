@@ -1,11 +1,10 @@
-import { FiHeadphones, FiMail, FiMapPin, FiChevronUp } from "react-icons/fi";
 import GoogleMapReact from "google-map-react";
+import { FiChevronUp, FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import PageHelmet from "../component/common/Helmet";
-import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-import ContactTwo from "../elements/contact/ContactTwo";
 import Navbar from "../custom-component/Navbar";
+import ContactTwo from "../elements/contact/ContactTwo";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -79,9 +78,11 @@ const CustomContact = () => {
                 <div className="inner">
                   <h4 className="title">Location</h4>
                   <p>
-                    5678 Bangla Main Road, cities 580 <br /> GBnagla, example
-                    54786
+                    Building No. 3940, Prince Saud Al Faisal Ibn Abdulaziz
+                    Street
                   </p>
+                  <p>Ar Rawdah District, Jeddah 23433</p>
+                  <p>Kingdom of Saudi Arabia</p>
                 </div>
               </div>
             </div>
@@ -99,8 +100,8 @@ const CustomContact = () => {
         <div style={{ height: "650px", width: "100%" }}>
           <GoogleMapReact defaultCenter={center} defaultZoom={zoom}>
             <AnyReactComponent
-              lat={59.955413}
-              lng={30.337844}
+              lat={21.5640546}
+              lng={39.1687836}
               text="My Marker"
             />
           </GoogleMapReact>
